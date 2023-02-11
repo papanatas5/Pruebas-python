@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tienda de Mangas</title>
+</head>
+<body>
+  <h1>Bienvenido a nuestra tienda de mangas</h1>
+  <form>
+    <label for="manga-select">Selecciona un manga:</label>
+    <select id="manga-select">
+      <option value="one-piece">One Piece</option>
+      <option value="naruto">Naruto</option>
+      <option value="bleach">Bleach</option>
+    </select>
+    <br>
+    <label for="quantity">Cantidad:</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="10">
+    <br><br>
+    <button onclick="addToCart()">Añadir al carrito</button>
+  </form>
+  <br>
+  <div id="cart"></div>
+  <script>
+    function addToCart() {
+      var mangaSelect = document.getElementById("manga-select");
+      var selectedManga = mangaSelect.options[mangaSelect.selectedIndex].text;
+      var quantity = document.getElementById("quantity").value;
+      var cart = document.getElementById("cart");
+      cart.innerHTML = "Has añadido " + quantity + " copias de " + selectedManga + " al carrito.";
+    }
+  </script>
+</body>
+</html>
