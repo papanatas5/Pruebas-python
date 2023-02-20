@@ -132,13 +132,9 @@ es_fecha_valida (29, 2, 1900)
 
 ### Enunciado 2 ###
 
-palabra = ["peperina", "coleccion"]
+palabra = ["peperina", "coleccion", "Marmota", "a"]
 for palabra [0] [0] in palabra [0] [1:]:
  print("*" * palabra [0] [1:])
-    
-
-    
-
     
 
 
