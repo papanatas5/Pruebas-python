@@ -132,6 +132,17 @@ es_fecha_valida (29, 2, 1900)
 
 ### Enunciado 2 ###
 
+palabra = ["peperina", "coleccion"]
+for palabra [0] [0] in palabra [0] [1:]:
+ print("*" * palabra [0] [1:])
+    
+
+    
+
+    
+
+
+
 
 # print("Desorden")
 # mi_lista = ("Santa", "Fe")
@@ -146,4 +157,3 @@ es_fecha_valida (29, 2, 1900)
 # def desorden (text):
 #     print(str.split(text[:3]))
 # desorden("asgrfd")
-
