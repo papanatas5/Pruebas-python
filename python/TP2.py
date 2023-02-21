@@ -12,3 +12,42 @@ for x in palabra:
     indice = indice + 1 #una vez terminado el FOR sumo aumento el indice
 
 print(palabra)
+
+
+mi_lista = ("Santa", "Fe")
+d1 =(mi_lista[0][:3])
+d2 =(mi_lista[1][:1])
+t1 =(mi_lista[0][3:])
+t2 =(mi_lista[1][1:])
+x = d1 + d2 + t1 + t2
+print(x)
+
+
+palabras = ("abcde", "xyz")
+for x in palabras:
+    if len(x) > 4:
+        mitad1 = x[:3]
+        mitad2 = x[3:]
+        concatenacion = mitad2 + mitad1
+        print(concatenacion)
+    else:
+        mitad3 = x[:2]
+        mitad4 = x[2:]
+        concatenacion = mitad4 + mitad3
+        print(concatenacion)
+print (mitad1 + mitad3 + mitad2 + mitad4)
+
+palabras = ("abcd", "xy")
+for x in palabras:
+    if len(x) > 4:
+        mitad1 = x[:3]
+        mitad2 = x[3:]
+        concatenacion = mitad2 + mitad1
+        print(concatenacion)
+    else:
+        mitad3 = x[:1]
+        mitad4 = x[1:]
+        concatenacion = mitad4 + mitad3
+        print(concatenacion)
+print (mitad1 + mitad3 + mitad2 + mitad4)
+

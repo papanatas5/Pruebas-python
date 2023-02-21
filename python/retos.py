@@ -136,20 +136,10 @@ palabra = ["peperina", "coleccion", "Marmota", "a"]
 for palabra [0] [0] in palabra [0] [1:]:
  print("*" * palabra [0] [1:])
     
-
-
-
-
-# print("Desorden")
-# mi_lista = ("Santa", "Fe")
-# d1 =(mi_lista[0][:3])
-# d2 =(mi_lista[1][:1])
-# t1 =(mi_lista[0][3:])
-# t2 =(mi_lista[1][1:])
-# x = d1 + d2 + t1 + t2
-# print(x)
-
-
-# def desorden (text):
-#     print(str.split(text[:3]))
-# desorden("asgrfd")
+mi_lista = ("Santa", "Fe")
+d1 =(mi_lista[0][:3])
+d2 =(mi_lista[1][:1])
+t1 =(mi_lista[0][3:])
+t2 =(mi_lista[1][1:])
+x = d1 + d2 + t1 + t2
+print(x)
