@@ -51,3 +51,11 @@ for x in palabras:
         print(concatenacion)
 print (mitad1 + mitad3 + mitad2 + mitad4)
 
+#Enunciado 3
+mi_lista = ["dos", "tres"]
+for x in mi_lista:
+    caracter1 = x [0] [:2]
+    caracter2 = x [1] [:2]    
+    y = x.replace(caracter1, caracter2)
+    w = x.replace(caracter2, caracter1)
+    print(y, w)
